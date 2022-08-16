@@ -1,0 +1,14 @@
+CRITICAL - 2022-05-04 10:52:30 --> Undefined array key "id"
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->loadCheckin()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 10:52:38 --> Undefined array key "id"
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->loadCheckin()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

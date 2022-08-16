@@ -1,0 +1,178 @@
+CRITICAL - 2022-04-21 12:43:47 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('admin/admin_att...', Array, true)
+#3 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(492): view('admin/admin_att...', Array)
+#4 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-21 12:45:00 --> Undefined property: App\Controllers\Admin\AttendanceController::$load
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(492): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 492)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 12:45:22 --> view(): Argument #3 ($options) must be of type array, bool given, called in C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php on line 492
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(492): view('admin/admin_att...', Array, true)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 12:45:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('admin/admin_att...', Array, true)
+#3 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(492): view('admin/admin_att...', Array)
+#4 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-21 12:47:21 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('admin/admin_att...', Array, true)
+#3 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(492): view('admin/admin_att...', Array)
+#4 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-21 12:48:54 --> Undefined variable $fetch_notcheckin
+#0 C:\xampp\htdocs\AttendanceSystem\app\Views\admin\admin_attendance\not_checkin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('admin/admin_att...', Array, true)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(492): view('admin/admin_att...', Array)
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 12:53:07 --> Undefined variable $fetch_notcheckin
+#0 C:\xampp\htdocs\AttendanceSystem\app\Views\admin\admin_attendance\not_checkin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('admin/admin_att...', Array, true)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(496): view('admin/admin_att...', Array)
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 12:53:32 --> Undefined variable $fetch_notcheckin
+#0 C:\xampp\htdocs\AttendanceSystem\app\Views\admin\admin_attendance\not_checkin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('admin/admin_att...', Array, true)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(490): view('admin/admin_att...', Array)
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 12:53:41 --> Undefined variable $fetch_notcheckin
+#0 C:\xampp\htdocs\AttendanceSystem\app\Views\admin\admin_attendance\not_checkin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('admin/admin_att...', Array, true)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(490): view('admin/admin_att...', Array)
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 12:54:02 --> Undefined variable $fetch_notcheckin
+#0 C:\xampp\htdocs\AttendanceSystem\app\Views\admin\admin_attendance\not_checkin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('admin/admin_att...', Array, true)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(496): view('admin/admin_att...', Array)
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 13:31:48 --> Undefined variable $fetch_notcheckin
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 494)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 13:31:52 --> Undefined variable $fetch_notcheckin
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 494)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-21 18:00:21 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-21 18:00:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\AttendanceSystem\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\AttendanceSystem\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AdminController.php(29): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AdminController->auth()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AdminController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-21 18:01:43 --> Unknown column 'checkins.date_time' in 'field list'
+CRITICAL - 2022-04-21 18:01:43 --> Unknown column 'checkins.date_time' in 'field list'
+#0 C:\xampp\htdocs\AttendanceSystem\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->loadCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-21 18:01:50 --> Unknown column 'checkins.date_time' in 'field list'
+CRITICAL - 2022-04-21 18:01:50 --> Unknown column 'checkins.date_time' in 'field list'
+#0 C:\xampp\htdocs\AttendanceSystem\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->loadCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-21 18:02:00 --> Unknown column 'checkins.date_time' in 'field list'
+CRITICAL - 2022-04-21 18:02:00 --> Unknown column 'checkins.date_time' in 'field list'
+#0 C:\xampp\htdocs\AttendanceSystem\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->loadCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 18:04:57 --> strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtotime(): Pa...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(194): strtotime(NULL)
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->loadCheckin()
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#4 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-21 18:05:04 --> strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtotime(): Pa...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(194): strtotime(NULL)
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->loadCheckin()
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#4 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

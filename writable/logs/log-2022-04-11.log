@@ -1,0 +1,53 @@
+CRITICAL - 2022-04-11 06:53:55 --> Undefined array key "emp_code"
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 190)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->loadCheckin()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 06:54:02 --> Undefined array key "emp_code"
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 190)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->loadCheckin()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 06:54:13 --> Undefined array key "emp_code"
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 190)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->loadCheckin()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 08:04:22 --> Array to string conversion
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 313)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->exportData()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 08:42:00 --> Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+#0 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->exportData()
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 08:43:11 --> Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+#0 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->exportData()
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 08:48:48 --> Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+#0 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->exportData()
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 09:04:47 --> Undefined array key "id"
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(386): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 386)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->exportData()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,78 @@
+CRITICAL - 2022-03-31 03:15:25 --> Undefined property: App\Controllers\Admin\UserController::$db
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->ajaxLoadData()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-31 03:51:39 --> Table 'attendancesystem.tbl_students' doesn't exist
+CRITICAL - 2022-03-31 03:51:39 --> Table 'attendancesystem.tbl_students' doesn't exist
+#0 C:\xampp\htdocs\AttendanceSystem\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * from t...', 0)
+#1 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from t...')
+#2 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from t...')
+#3 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\UserController.php(38): CodeIgniter\Database\BaseConnection->query('SELECT * from t...')
+#4 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->ajaxLoadData()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-31 04:08:33 --> Call to undefined method App\Models\UserModel::getResult
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\UserController.php(47): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->ajaxLoadData()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 04:12:18 --> Call to undefined method App\Models\UserModel::toSql
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\UserController.php(47): CodeIgniter\Model->__call('toSql', Array)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->ajaxLoadData()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-31 04:12:30 --> Unknown column 'roles_id' in 'where clause'
+CRITICAL - 2022-03-31 04:12:30 --> Unknown column 'roles_id' in 'where clause'
+#0 C:\xampp\htdocs\AttendanceSystem\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\AttendanceSystem\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AttendanceSystem\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\UserController.php(47): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->ajaxLoadData()
+#8 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#9 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-31 04:19:58 --> Undefined property: App\Controllers\Admin\UserController::$db
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\UserController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->ajaxLoadData()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 04:21:53 --> Attempt to read property "employee_code" on array
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\UserController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->ajaxLoadData()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 04:33:35 --> Undefined property: App\Controllers\Admin\UserController::$db
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\UserController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->ajaxLoadData()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 23:53:29 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\AttendanceSystem\app\Views\admin\admin_users\create.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('admin/admin_use...', Array, true)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\UserController.php(74): view('admin/admin_use...', Array)
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->addUsers()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

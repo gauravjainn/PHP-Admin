@@ -1,0 +1,58 @@
+CRITICAL - 2022-05-05 16:52:03 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Home.php(98): App\Controllers\Home->setUserSession(Array)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Home->checkIn()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 16:52:12 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Home.php(98): App\Controllers\Home->setUserSession(Array)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Home->checkIn()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 16:55:22 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Home.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Home.php(98): App\Controllers\Home->setUserSession(Array)
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Home->checkIn()
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-05 16:55:27 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Home.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Home.php(98): App\Controllers\Home->setUserSession(Array)
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Home->checkIn()
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-05 16:57:21 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Home.php(98): App\Controllers\Home->setUserSession(Array)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Home->checkIn()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 16:57:22 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Home.php(98): App\Controllers\Home->setUserSession(Array)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Home->checkIn()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 16:57:27 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Home.php(98): App\Controllers\Home->setUserSession(Array)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Home->checkIn()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 17:28:04 --> Array to string conversion
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(510): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 510)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->moveLeave()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

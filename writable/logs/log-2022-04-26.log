@@ -1,0 +1,6 @@
+CRITICAL - 2022-04-26 10:51:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+#0 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\PayrollController->uploadPayslip()
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PayrollController))
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

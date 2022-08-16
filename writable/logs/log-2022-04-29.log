@@ -1,0 +1,74 @@
+ERROR - 2022-04-29 10:53:28 --> Unknown column 'user.status' in 'where clause'
+CRITICAL - 2022-04-29 10:53:28 --> Unknown column 'user.status' in 'where clause'
+#0 C:\xampp\htdocs\AttendanceSystem\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(577): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-29 10:53:28 --> Unknown column 'user.status' in 'where clause'
+CRITICAL - 2022-04-29 10:53:28 --> Unknown column 'user.status' in 'where clause'
+#0 C:\xampp\htdocs\AttendanceSystem\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(577): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-29 10:53:32 --> Unknown column 'user.status' in 'where clause'
+CRITICAL - 2022-04-29 10:53:32 --> Unknown column 'user.status' in 'where clause'
+#0 C:\xampp\htdocs\AttendanceSystem\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\AttendanceSystem\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Controllers\Admin\AttendanceController.php(577): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\Admin\AttendanceController->notCheckin()
+#6 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AttendanceController))
+#7 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 16:22:16 --> Undefined property: App\Controllers\User\UserProfileController::$db
+#0 C:\xampp\htdocs\AttendanceSystem\app\Controllers\User\UserProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\User\UserProfileController->index()
+#2 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\UserProfileController))
+#3 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 16:48:22 --> Undefined variable $session
+#0 C:\xampp\htdocs\AttendanceSystem\app\Views\frontend\partials\nave.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(424): CodeIgniter\View\View->render('frontend/partia...', NULL, true)
+#4 C:\xampp\htdocs\AttendanceSystem\app\Views\frontend\partials\layout.php(12): CodeIgniter\View\View->include('frontend/partia...')
+#5 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(226): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#8 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('frontend/users/...', Array, true)
+#9 C:\xampp\htdocs\AttendanceSystem\app\Controllers\User\UserProfileController.php(26): view('frontend/users/...', Array)
+#10 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\User\UserProfileController->index()
+#11 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\UserProfileController))
+#12 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-04-29 16:48:47 --> Call to undefined method CodeIgniter\View\View::session()
+#0 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(424): CodeIgniter\View\View->render('frontend/partia...', NULL, true)
+#3 C:\xampp\htdocs\AttendanceSystem\app\Views\frontend\partials\layout.php(12): CodeIgniter\View\View->include('frontend/partia...')
+#4 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\AttendanceSystem\system\View\View.php(226): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#7 C:\xampp\htdocs\AttendanceSystem\system\Common.php(1089): CodeIgniter\View\View->render('frontend/users/...', Array, true)
+#8 C:\xampp\htdocs\AttendanceSystem\app\Controllers\User\UserProfileController.php(26): view('frontend/users/...', Array)
+#9 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(832): App\Controllers\User\UserProfileController->index()
+#10 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\UserProfileController))
+#11 C:\xampp\htdocs\AttendanceSystem\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\AttendanceSystem\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
